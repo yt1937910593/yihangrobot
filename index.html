@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="zh-CN" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>宁波易航机器人科技有限公司 - 工业机器人维修 · 自动化解决方案</title>
+    <meta name="description" content="宁波易航机器人科技，专注ABB、KUKA、FANUC、安川等工业机器人维修、销售与配件供应。300+案例，1000+项目，24H响应。获取报价。" />
+    <meta name="keywords" content="工业机器人维修,机器人销售,机器人配件,ABB维修,KUKA维修,FANUC维修,自动化升级,宁波机器人公司" />
+    <meta name="author" content="宁波易航机器人科技有限公司" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <link rel="canonical" href="https://www.nbyihang.cn/" />
+
+    <!-- Open Graph 标签 -->
+    <meta property="og:title" content="宁波易航机器人科技有限公司 - 工业机器人维修与自动化解决方案" />
+    <meta property="og:description" content="工业机器人全生命周期服务商。300+案例，1000+项目，24H快速响应。" />
+    <meta property="og:image" content="https://www.nbyihang.cn/images/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://www.nbyihang.cn/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:site_name" content="宁波易航机器人" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="宁波易航机器人科技有限公司" />
+    <meta name="twitter:description" content="工业机器人维修、销售与自动化升级解决方案" />
+    <meta name="twitter:image" content="https://www.nbyihang.cn/images/og-image.jpg" />
+
+    <!-- 移动端优化 -->
+    <meta name="theme-color" content="#07111F" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <link rel="icon" type="image/png" href="./images/favicon.png" />
+    <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" />
+
+    <!-- 预加载关键资源 -->
+    <link rel="preload" href="./images/hero-banner.jpg" as="image" />
+    <link rel="preload" href="./images/logo.png" as="image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- 结构化数据 -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "宁波易航机器人科技有限公司",
+            "alternateName": "易航机器人",
+            "url": "https://www.nbyihang.cn/",
+            "logo": "https://www.nbyihang.cn/images/logo.png",
+            "image": "https://www.nbyihang.cn/images/og-image.jpg",
+            "telephone": "+86-18057498201",
+            "email": "info@nbyihang.cn",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "宁波",
+                "addressRegion": "浙江省",
+                "postalCode": "315000",
+                "streetAddress": "高新区聚贤路1299号027幢办公室1F102室"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "29.86",
+                "longitude": "121.62"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+86-18057498201",
+                "contactType": "customer service",
+                "availableLanguage": ["中文", "English"],
+                "areaServed": "CN"
+            },
+            "sameAs": [
+                "https://www.linkedin.com/company/yihang-robot",
+                "https://www.facebook.com/yihangrobot"
+            ],
+            "openingHoursSpecification": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+                "opens": "08:30",
+                "closes": "17:30"
+            }
+        }
+    </script>
+
+    <style>
+        /* =======================
+           CSS 变量（含动画时长）
+        ======================= */
+        :root {
+            --color-primary: #2563EB;
+            --color-accent: #06B6D4;
+            --color-highlight: #38BDF8;
+            --color-bg: #07111F;
+            --color-bg-light: rgba(255, 255, 255, 0.02);
+            --color-text: #CBD5E1;
+            --color-text-light: #E2E8F0;
+            --color-white: #fff;
+            --color-border: rgba(255, 255, 255, 0.08);
+            --color-border-hover: rgba(56, 189, 248, 0.35);
+            --color-card-bg: linear-gradient(180deg,
+                    rgba(255, 255, 255, 0.05),
+                    rgba(255, 255, 255, 0.01));
+            --gradient-primary: linear-gradient(135deg,
+                    var(--color-primary),
+                    var(--color-accent));
+            --gradient-icon-bg: linear-gradient(135deg,
+                    rgba(37, 99, 235, 0.2),
+                    rgba(6, 182, 212, 0.2));
+            --radius-sm: 10px;
+            --radius-md: 14px;
+            --radius-lg: 18px;
+            --radius-xl: 24px;
+            --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-normal: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+            --navbar-height: 80px;
+            --font-family: "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+        }
+
+        /* =======================
+           RESET
+        ======================= */
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: var(--navbar-height);
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background: var(--color-bg);
+            color: var(--color-white);
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            line-height: 1.5;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: color var(--transition-fast);
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+            height: auto;
+        }
+
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        button {
+            font-family: inherit;
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+
+        :focus-visible {
+            outline: 2px solid var(--color-highlight);
+            outline-offset: 3px;
+            border-radius: 4px;
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+
+        /* =======================
+           CANVAS 粒子背景
+        ======================= */
+        #particleCanvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0.4;
+        }
+
+        .site-wrapper {
+            position: relative;
+            z-index: 1;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            padding: 0 24px;
+        }
+
+        section {
+            padding: 100px 0;
+            position: relative;
+        }
+
+        h1 {
+            font-size: clamp(36px, 7vw, 64px);
+            line-height: 1.15;
+            margin-bottom: 24px;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+        }
+
+        h2 {
+            font-size: clamp(28px, 5vw, 44px);
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-weight: 600;
+        }
+
+        p {
+            line-height: 1.8;
+            color: var(--color-text);
+        }
+
+        .section-desc {
+            max-width: 720px;
+            margin: 0 auto 60px;
+            text-align: center;
+            font-size: 17px;
+            opacity: 0.9;
+        }
+
+        /* 渐显动画 */
+        .fade-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .fade-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* =======================
+           NAVBAR
+        ======================= */
+        .navbar {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            background: rgba(7, 17, 31, 0.7);
+            backdrop-filter: blur(20px) saturate(180%);
+            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            transition: background var(--transition-normal), box-shadow var(--transition-normal);
+        }
+
+        .navbar.scrolled {
+            background: rgba(7, 17, 31, 0.92);
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+        }
+
+        .nav-inner {
+            height: var(--navbar-height);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .logo img {
+            height: 48px;
+            width: auto;
+            transition: transform var(--transition-fast);
+        }
+
+        .logo:hover img {
+            transform: scale(1.02);
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 6px;
+            align-items: center;
+            list-style: none;
+        }
+
+        .nav-menu > li {
+            position: relative;
+        }
+
+        .nav-menu > li > a {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            color: var(--color-text-light);
+            font-size: 15px;
+            font-weight: 500;
+            padding: 10px 14px;
+            transition: color var(--transition-fast), background var(--transition-fast);
+            white-space: nowrap;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .nav-menu > li > a::after {
+            content: '';
+            position: absolute;
+            bottom: 4px;
+            left: 14px;
+            right: 14px;
+            height: 2px;
+            background: var(--color-highlight);
+            border-radius: 2px;
+            transform: scaleX(0);
+            transition: transform var(--transition-fast);
+            transform-origin: center;
+        }
+
+        .nav-menu > li > a:hover::after,
+        .nav-menu > li > a:focus-visible::after {
+            transform: scaleX(1);
+        }
+
+        .nav-menu > li > a:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .arrow-down {
+            font-size: 10px;
+            transition: transform var(--transition-fast);
+            opacity: 0.7;
+        }
+
+        .nav-menu > li:hover > a .arrow-down {
+            transform: rotate(180deg);
+        }
+
+        .nav-menu .subnav {
+            position: absolute;
+            top: calc(100% + 8px);
+            left: 0;
+            min-width: 200px;
+            background: rgba(10, 20, 35, 0.96);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 8px 0;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+            z-index: 100;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: opacity var(--transition-normal), transform var(--transition-normal), visibility var(--transition-normal);
+        }
+
+        .nav-menu li:hover > .subnav {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .subnav li a {
+            display: block;
+            padding: 10px 24px;
+            color: #CBD5E1;
+            font-size: 14px;
+            transition: background 0.2s, color 0.2s;
+            white-space: nowrap;
+        }
+
+        .subnav li a:hover {
+            background: rgba(56, 189, 248, 0.12);
+            color: #38BDF8;
+        }
+
+        .nav-btn {
+            padding: 12px 24px;
+            border-radius: 50px;
+            background: var(--gradient-primary);
+            color: #fff;
+            font-weight: 700;
+            font-size: 14px;
+            transition: transform var(--transition-fast), box-shadow var(--transition-fast), filter var(--transition-fast);
+            white-space: nowrap;
+            flex-shrink: 0;
+            letter-spacing: 0.02em;
+        }
+
+        .nav-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(37, 99, 235, 0.45);
+            filter: brightness(1.1);
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            gap: 5px;
+            width: 44px;
+            height: 44px;
+            padding: 8px;
+            border-radius: 10px;
+            transition: background var(--transition-fast);
+            z-index: 1100;
+            flex-shrink: 0;
+        }
+
+        .hamburger:hover {
+            background: rgba(255, 255, 255, 0.06);
+        }
+
+        .hamburger span {
+            display: block;
+            width: 24px;
+            height: 2px;
+            background: #fff;
+            border-radius: 2px;
+            transition: transform var(--transition-fast), opacity var(--transition-fast);
+            transform-origin: center;
+        }
+
+        .hamburger.active span:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+
+        .hamburger.active span:nth-child(2) {
+            opacity: 0;
+            transform: scaleX(0);
+        }
+
+        .hamburger.active span:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+
+        @media(max-width:768px) {
+            .hamburger {
+                display: flex;
+            }
+
+            .nav-menu {
+                position: absolute;
+                top: var(--navbar-height);
+                left: 0;
+                width: 100%;
+                flex-direction: column;
+                background: rgba(7, 17, 31, 0.96);
+                backdrop-filter: blur(24px);
+                -webkit-backdrop-filter: blur(24px);
+                padding: 20px 24px 30px;
+                gap: 4px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                opacity: 0;
+                pointer-events: none;
+                transform: translateY(-12px);
+                transition: opacity var(--transition-normal), transform var(--transition-normal);
+                box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+                overflow-y: auto;
+                max-height: 75vh;
+            }
+
+            .nav-menu.active {
+                opacity: 1;
+                pointer-events: all;
+                transform: translateY(0);
+            }
+
+            .nav-menu > li {
+                width: 100%;
+            }
+
+            .nav-menu > li > a {
+                font-size: 16px;
+                padding: 12px 12px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            }
+
+            .nav-menu .subnav {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                background: transparent;
+                border: none;
+                padding-left: 20px;
+                box-shadow: none;
+                display: block;
+            }
+
+            .subnav li a {
+                padding: 10px 16px;
+                color: #94A3B8;
+            }
+
+            .arrow-down {
+                display: none;
+            }
+
+            .nav-btn {
+                display: none;
+            }
+        }
+
+        /* =======================
+           HERO
+        ======================= */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding-top: var(--navbar-height);
+            background: linear-gradient(rgba(7, 17, 31, 0.65), rgba(7, 17, 31, 0.85)),
+                url('./images/hero-banner.jpg') center/cover no-repeat;
+            position: relative;
+        }
+
+        .hero-content {
+            max-width: 760px;
+            position: relative;
+            z-index: 2;
+        }
+
+        .hero-sub {
+            color: var(--color-highlight);
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.15em;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            display: inline-block;
+            padding: 6px 16px;
+            background: rgba(56, 189, 248, 0.1);
+            border-radius: 50px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin: 30px 0 40px;
+            max-width: 560px;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 16px 32px;
+            border-radius: 50px;
+            font-weight: 700;
+            font-size: 15px;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-primary {
+            background: var(--gradient-primary);
+            color: #fff;
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 14px 32px rgba(37, 99, 235, 0.5);
+        }
+
+        .btn-outline {
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            color: #fff;
+            backdrop-filter: blur(8px);
+        }
+
+        .btn-outline:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-4px);
+        }
+
+        .hero-data {
+            margin-top: 60px;
+            display: flex;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .hero-data div {
+            text-align: center;
+        }
+
+        .hero-data strong {
+            display: block;
+            font-size: 38px;
+            color: var(--color-highlight);
+            font-weight: 800;
+        }
+
+        .hero-data span {
+            font-size: 13px;
+            color: var(--color-text);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* =======================
+           卡片
+        ======================= */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 28px;
+        }
+
+        .card {
+            background: var(--color-card-bg);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-xl);
+            padding: 40px 30px;
+            transition: transform var(--transition-slow), border-color var(--transition-normal), box-shadow var(--transition-normal);
+            text-align: center;
+            backdrop-filter: blur(10px);
+            will-change: transform;
+            transform-style: preserve-3d;
+            perspective: 800px;
+        }
+
+        .card:hover {
+            transform: translateY(-12px) rotateX(2deg) rotateY(2deg);
+            border-color: var(--color-border-hover);
+            box-shadow: 0 20px 50px rgba(56, 189, 248, 0.12);
+        }
+
+        .card-icon {
+            width: 70px;
+            height: 70px;
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--gradient-icon-bg);
+            margin: 0 auto 24px;
+            transition: transform var(--transition-fast);
+        }
+
+        .card:hover .card-icon {
+            transform: scale(1.1) translateZ(10px);
+        }
+
+        .card-icon svg {
+            width: 34px;
+            height: 34px;
+        }
+
+        .card h3 {
+            margin-bottom: 14px;
+            font-size: 20px;
+        }
+
+        /* =======================
+           品牌墙
+        ======================= */
+        .brands {
+            background: rgba(255, 255, 255, 0.01);
+        }
+
+        .brand-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+
+        .brand-wrap img {
+            height: 60px;
+            width: auto;
+            object-fit: contain;
+            filter: grayscale(100%) brightness(1.3);
+            opacity: 0.7;
+            transition: filter var(--transition-normal), opacity var(--transition-normal), transform var(--transition-fast);
+        }
+
+        .brand-wrap img:hover {
+            filter: grayscale(0%) brightness(1);
+            opacity: 1;
+            transform: scale(1.08);
+        }
+
+        /* =======================
+           关于我们
+        ======================= */
+        .about-section {
+            background: rgba(255, 255, 255, 0.015);
+        }
+
+        .about-grid {
+            display: flex;
+            align-items: center;
+            gap: 60px;
+        }
+
+        .about-logo {
+            flex: 0 0 220px;
+            text-align: center;
+        }
+
+        .about-logo img {
+            max-width: 200px;
+            height: auto;
+            margin: 0 auto;
+            filter: drop-shadow(0 8px 16px rgba(0,0,0,0.3));
+            transition: transform var(--transition-fast);
+        }
+
+        .about-logo img:hover {
+            transform: scale(1.03);
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .about-text p {
+            font-size: 16px;
+            line-height: 1.9;
+            color: var(--color-text);
+            margin-bottom: 16px;
+        }
+
+        .about-text p:last-child {
+            margin-bottom: 0;
+        }
+
+        @media(max-width:768px) {
+            .about-grid {
+                flex-direction: column;
+                gap: 30px;
+                text-align: center;
+            }
+
+            .about-logo {
+                flex: 0 0 auto;
+            }
+
+            .about-logo img {
+                max-width: 160px;
+            }
+
+            .about-text p {
+                font-size: 15px;
+            }
+        }
+
+        /* =======================
+           CTA 表单
+        ======================= */
+        .cta {
+            background: linear-gradient(135deg, rgba(37, 99, 235, 0.08), rgba(6, 182, 212, 0.05));
+        }
+
+        .form {
+            max-width: 640px;
+            margin: 50px auto 0;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+        }
+
+        .form input,
+        .form textarea {
+            width: 100%;
+            padding: 16px 20px;
+            border-radius: var(--radius-md);
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #fff;
+            font-family: inherit;
+            font-size: 16px;
+            transition: border-color var(--transition-fast), background var(--transition-fast), box-shadow var(--transition-fast);
+            outline: none;
+        }
+
+        .form input:focus,
+        .form textarea:focus {
+            border-color: var(--color-highlight);
+            background: rgba(255, 255, 255, 0.08);
+            box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.15);
+        }
+
+        .form textarea {
+            min-height: 130px;
+            resize: vertical;
+        }
+
+        /* =======================
+           FOOTER
+        ======================= */
+        .footer {
+            padding: 60px 0 40px;
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            background: rgba(0, 0, 0, 0.25);
+            font-size: 14px;
+        }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 40px;
+        }
+
+        .footer h3 {
+            margin-bottom: 16px;
+            font-size: 16px;
+            color: #fff;
+        }
+
+        .footer a[href^="tel"] {
+            color: var(--color-highlight);
+        }
+
+        .footer address {
+            font-style: normal;
+            line-height: 1.7;
+        }
+
+        /* =======================
+           浮动按钮
+        ======================= */
+        .floating {
+            position: fixed;
+            right: 20px;
+            bottom: 80px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            z-index: 990;
+        }
+
+        .float-btn {
+            width: 52px;
+            height: 52px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--gradient-primary);
+            color: #fff;
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.35);
+            transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+            position: relative;
+        }
+
+        .float-btn:hover {
+            transform: translateY(-4px) scale(1.08);
+            box-shadow: 0 12px 28px rgba(37, 99, 235, 0.55);
+        }
+
+        .float-btn svg {
+            width: 22px;
+            height: 22px;
+            fill: none;
+            stroke: #fff;
+            stroke-width: 2;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        .float-btn .tooltip {
+            position: absolute;
+            right: 60px;
+            background: rgba(0, 0, 0, 0.9);
+            color: #fff;
+            padding: 5px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            white-space: nowrap;
+            pointer-events: none;
+            opacity: 0;
+            transform: translateX(8px);
+            transition: opacity var(--transition-fast), transform var(--transition-fast);
+        }
+
+        .float-btn:hover .tooltip {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* =======================
+           全局响应式
+        ======================= */
+        @media(max-width:1024px) {
+            .grid-3 {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 30px;
+            }
+        }
+
+        @media(max-width:768px) {
+            section {
+                padding: 70px 0;
+            }
+
+            .grid-3 {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+                justify-content: center;
+            }
+
+            .hero-data {
+                gap: 20px;
+                justify-content: center;
+            }
+
+            .brand-wrap img {
+                height: 45px;
+            }
+
+            .floating {
+                right: 12px;
+                bottom: 60px;
+            }
+
+            .float-btn .tooltip {
+                display: none;
+            }
+        }
+
+        @media(max-width:480px) {
+            .container {
+                padding: 0 18px;
+            }
+
+            .hero-data strong {
+                font-size: 28px;
+            }
+
+            .card {
+                padding: 28px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+
+    <div class="site-wrapper">
+
+        <!-- =======================
+             NAVBAR
+        ======================= -->
+        <header class="navbar" id="navbar">
+            <div class="container nav-inner">
+                <div class="logo">
+                    <a href="#home" aria-label="易航机器人首页">
+                        <img src="./images/logo.png" alt="易航机器人" width="180" height="48" />
+                    </a>
+                </div>
+
+                <nav id="navMenu" aria-label="主导航">
+                    <ul class="nav-menu">
+                        <li><a href="#home">首页</a></li>
+                        <li>
+                            <a href="#about">公司简介 <span class="arrow-down">▼</span></a>
+                            <ul class="subnav">
+                                <li><a href="#about1">关于我们</a></li>
+                                <li><a href="#about2">联系我们</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#projects">机器人项目 <span class="arrow-down">▼</span></a>
+                            <ul class="subnav">
+                                <li><a href="#project1">产线改造</a></li>
+                                <li><a href="#project2">集成项目</a></li>
+                                <li><a href="#project3">非标应用</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#after-sales">机器人售后 <span class="arrow-down">▼</span></a>
+                            <ul class="subnav">
+                                <li><a href="#service1">机器人保养</a></li>
+                                <li><a href="#service2">机器人维修</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#sales">机器人销售 <span class="arrow-down">▼</span></a>
+                            <ul class="subnav">
+                                <li><a href="#sale1">ABB</a></li>
+                                <li><a href="#sale2">KUKA</a></li>
+                                <li><a href="#sale3">安川</a></li>
+                                <li><a href="#sale4">FANUC</a></li>
+                                <li><a href="#sale5">川崎</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#parts">机器人集成销售 <span class="arrow-down">▼</span></a>
+                            <ul class="subnav">
+                                <li><a href="#part1">ABB备件</a></li>
+                                <li><a href="#part2">KUKA备件</a></li>
+                                <li><a href="#part3">安川备件</a></li>
+                                <li><a href="#part4">FANUC备件</a></li>
+                                <li><a href="#part5">工业机器人备件</a></li>
+                                <li><a href="#part6">工控产品维修</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#news">新闻中心</a></li>
+                    </ul>
+                </nav>
+
+                <button class="nav-btn" id="ctaNavBtn" type="button">获取报价</button>
+
+                <button class="hamburger" id="hamburgerBtn" type="button" aria-label="菜单" aria-expanded="false" aria-controls="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </header>
+
+        <main id="home">
+            <!-- HERO -->
+            <section class="hero" aria-labelledby="heroHeading">
+                <div class="container">
+                    <div class="hero-content fade-up">
+                        <div class="hero-sub">INDUSTRIAL ROBOT SOLUTION</div>
+                        <h1 id="heroHeading">工业机器人维修<br />自动化升级解决方案</h1>
+                        <p>专注ABB、KUKA、FANUC、安川等品牌，提供全生命周期服务。</p>
+                        <div class="hero-buttons">
+                            <!-- 修改为跳转链接 -->
+                            <a href="http://www.nbyihang.cn/?content/" class="btn btn-primary">免费故障诊断</a>
+                            <button class="btn btn-outline" id="heroSolutionBtn">获取解决方案</button>
+                        </div>
+                        <div class="hero-data">
+                            <div><strong>300+</strong><span>客户案例</span></div>
+                            <div><strong>1000+</strong><span>维修项目</span></div>
+                            <div><strong>24H</strong><span>快速响应</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SERVICES -->
+            <section id="services" aria-labelledby="servicesHeading">
+                <div class="container">
+                    <h2 id="servicesHeading" class="fade-up">核心服务</h2>
+                    <p class="section-desc fade-up">提供工业机器人全生命周期服务</p>
+                    <div class="grid-3">
+                        <article class="card fade-up">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="14" rx="3"/><circle cx="12" cy="14" r="3"/><circle cx="8" cy="6" r="2"/><circle cx="16" cy="6" r="2"/><line x1="8" y1="4" x2="8" y2="2"/><line x1="16" y1="4" x2="16" y2="2"/></svg>
+                            </div>
+                            <h3>机器人销售</h3>
+                            <p>各大品牌多型号机器人，正品保障，快速交付。</p>
+                        </article>
+                        <article class="card fade-up">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><line x1="12" y1="12" x2="12" y2="3"/><line x1="12" y1="12" x2="18.5" y2="5.5"/></svg>
+                            </div>
+                            <h3>机器人维修</h3>
+                            <p>解决报警、停机、精度异常，快速恢复生产。</p>
+                        </article>
+                        <article class="card fade-up">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+                            </div>
+                            <h3>配件供应</h3>
+                            <p>原厂及替代配件，库存充足，极速发货。</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- BRANDS -->
+            <section class="brands" id="brands" aria-labelledby="brandsHeading">
+                <div class="container">
+                    <h2 id="brandsHeading" class="fade-up">支持品牌</h2>
+                    <p class="section-desc fade-up">多品牌机器人维修与技术支持</p>
+                    <div class="brand-wrap fade-up">
+                        <img src="./images/abb-logo.png" alt="ABB" width="130" height="60" loading="lazy" />
+                        <img src="./images/fanuc-logo.png" alt="FANUC" width="130" height="60" loading="lazy" />
+                        <img src="./images/kawasaki-logo.png" alt="KAWASAKI" width="130" height="60" loading="lazy" />
+                        <img src="./images/kuka-logo.png" alt="KUKA" width="130" height="60" loading="lazy" />
+                        <img src="./images/yaskawa-logo.png" alt="YASKAWA" width="130" height="60" loading="lazy" />
+                    </div>
+                </div>
+            </section>
+
+            <!-- 关于我们 -->
+            <section class="about-section" id="about" aria-labelledby="aboutHeading">
+                <div class="container">
+                    <h2 id="aboutHeading" class="fade-up">关于我们</h2>
+                    <div class="about-grid fade-up">
+                        <div class="about-logo">
+                            <img src="./images/logo.png" alt="宁波易航机器人科技有限公司 Logo" width="200" height="auto" />
+                        </div>
+                        <div class="about-text">
+                            <p>宁波易航机器人科技有限公司是一家专业从事机器人选型、销售、改造、备件、维保、调试、培训等服务为一体的专业化企业。我公司始终以市场为导向，以客户的需求为目标，以优质的服务为依托，多元化发展的战略思想，为广大客户提供优质便捷的产品和服务。</p>
+                            <p>主要涉及品牌有 ABB、KUKA、安川、FANUC、Kawasaki川崎、Panasonic松下、COMAU柯马、STAUBCI史陶比尔等世界领先机器人。我们拥有多名行业资深工程师，均有多年机器人应用经验及维护、培训经验，实实在在立足机器人应用，能快速为客户做出维保方案，完全贴合现场生产，在各种品牌伺服、变频、人机等技术领域有着先进的维修检测方法，能对进口至上的至诚原则，以合理的价格为客户提供快捷周到的优质服务，及时解除生产线上的后顾之忧。</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- CTA -->
+            <section class="cta" id="cta-form" aria-labelledby="ctaHeading">
+                <div class="container">
+                    <h2 id="ctaHeading" class="fade-up">获取工业机器人解决方案</h2>
+                    <p class="section-desc fade-up">工程师快速响应，量身定制最优方案</p>
+                    <form class="form fade-up" id="contactForm" action="/api/contact" method="POST">
+                        <label for="formName" class="sr-only">姓名</label>
+                        <input type="text" id="formName" name="name" placeholder="您的姓名" required autocomplete="name" />
+                        <label for="formPhone" class="sr-only">电话</label>
+                        <input type="tel" id="formPhone" name="phone" placeholder="联系电话" required autocomplete="tel" />
+                        <label for="formMessage" class="sr-only">需求</label>
+                        <textarea id="formMessage" name="message" placeholder="请描述您的需求" required></textarea>
+                        <button type="submit" class="btn btn-primary">提交获取报价</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer" role="contentinfo">
+            <div class="container footer-grid">
+                <div>
+                    <img src="./images/logo.png" alt="易航机器人" width="160" height="40" style="margin-bottom:16px;" />
+                    <p>宁波易航机器人科技有限公司</p>
+                    <p style="margin-top:10px;">&copy; <span id="currentYear"></span> 版权所有</p>
+                </div>
+                <div>
+                    <h3>联系方式</h3>
+                    <p>📞 <a href="tel:18057498201">18057498201</a></p>
+                    <p>📞 <a href="tel:057486307819">0574-86307819</a></p>
+                </div>
+                <div>
+                    <h3>地址</h3>
+                    <address>浙江省宁波高新区聚贤路1299号<br />027幢办公室1F102室</address>
+                </div>
+            </div>
+        </footer>
+
+        <!-- FLOATING BUTTONS -->
+        <aside class="floating" aria-label="快捷操作">
+            <a href="tel:18057498201" class="float-btn" aria-label="拨打电话">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.79 19.79 0 0 1 11.19 18.85a19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.18 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <span class="tooltip">拨打电话</span>
+            </a>
+            <!-- 在线咨询按钮跳转至指定网址 -->
+            <a href="http://www.nbyihang.cn/?content/" class="float-btn" aria-label="在线咨询">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                <span class="tooltip">在线咨询</span>
+            </a>
+                    </aside>
+    </div>
+
+    <script>
+        (function() {
+            // ---------- 科技粒子背景 ----------
+            const canvas = document.getElementById('particleCanvas');
+            if (canvas) {
+                const ctx = canvas.getContext('2d');
+                let width, height;
+                let particles = [];
+                const maxParticles = 80;
+                const connectionDistance = 140;
+
+                function resize() {
+                    width = window.innerWidth;
+                    height = document.body.scrollHeight;
+                    canvas.width = width;
+                    canvas.height = height;
+                }
+
+                class Particle {
+                    constructor() {
+                        this.reset();
+                    }
+                    reset() {
+                        this.x = Math.random() * width;
+                        this.y = Math.random() * height;
+                        this.vx = (Math.random() - 0.5) * 0.6;
+                        this.vy = (Math.random() - 0.5) * 0.6;
+                        this.radius = Math.random() * 2 + 1;
+                    }
+                    update() {
+                        this.x += this.vx;
+                        this.y += this.vy;
+                        if (this.x < 0 || this.x > width) this.vx *= -1;
+                        if (this.y < 0 || this.y > height) this.vy *= -1;
+                    }
+                    draw(ctx) {
+                        ctx.beginPath();
+                        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                        ctx.fillStyle = 'rgba(56,189,248,0.6)';
+                        ctx.fill();
+                    }
+                }
+
+                function initParticles() {
+                    particles = [];
+                    for (let i = 0; i < maxParticles; i++) {
+                        particles.push(new Particle());
+                    }
+                }
+
+                function connectParticles(ctx) {
+                    for (let i = 0; i < particles.length; i++) {
+                        for (let j = i + 1; j < particles.length; j++) {
+                            const dx = particles[i].x - particles[j].x;
+                            const dy = particles[i].y - particles[j].y;
+                            const dist = Math.sqrt(dx * dx + dy * dy);
+                            if (dist < connectionDistance) {
+                                ctx.beginPath();
+                                ctx.moveTo(particles[i].x, particles[i].y);
+                                ctx.lineTo(particles[j].x, particles[j].y);
+                                ctx.strokeStyle = `rgba(56,189,248,${0.12 * (1 - dist / connectionDistance)})`;
+                                ctx.lineWidth = 0.8;
+                                ctx.stroke();
+                            }
+                        }
+                    }
+                }
+
+                function animateParticles() {
+                    if (!canvas || canvas.style.display === 'none') return;
+                    ctx.clearRect(0, 0, width, height);
+                    particles.forEach(p => {
+                        p.update();
+                        p.draw(ctx);
+                    });
+                    connectParticles(ctx);
+                    requestAnimationFrame(animateParticles);
+                }
+
+                window.addEventListener('resize', () => {
+                    resize();
+                    initParticles();
+                });
+
+                resize();
+                initParticles();
+                animateParticles();
+            }
+
+            // ---------- 导航滚动效果 ----------
+            const navbar = document.getElementById('navbar');
+            if (navbar) {
+                window.addEventListener('scroll', () => {
+                    navbar.classList.toggle('scrolled', window.scrollY > 50);
+                });
+            }
+
+            // ---------- 汉堡菜单 ----------
+            const hamburgerBtn = document.getElementById('hamburgerBtn');
+            const navMenu = document.getElementById('navMenu');
+            if (hamburgerBtn && navMenu) {
+                const navList = navMenu.querySelector('.nav-menu');
+                hamburgerBtn.addEventListener('click', () => {
+                    if (!navList) return;
+                    const isActive = navList.classList.toggle('active');
+                    hamburgerBtn.classList.toggle('active');
+                    hamburgerBtn.setAttribute('aria-expanded', isActive);
+                });
+
+                navMenu.querySelectorAll('a').forEach(link => {
+                    link.addEventListener('click', () => {
+                        if (navList && navList.classList.contains('active')) {
+                            navList.classList.remove('active');
+                            hamburgerBtn.classList.remove('active');
+                            hamburgerBtn.setAttribute('aria-expanded', 'false');
+                        }
+                    });
+                });
+
+                document.addEventListener('click', (e) => {
+                    if (!hamburgerBtn.contains(e.target) && !navMenu.contains(e.target)) {
+                        if (navList && navList.classList.contains('active')) {
+                            navList.classList.remove('active');
+                            hamburgerBtn.classList.remove('active');
+                            hamburgerBtn.setAttribute('aria-expanded', 'false');
+                        }
+                    }
+                });
+
+                document.addEventListener('keydown', (e) => {
+                    if (e.key === 'Escape' && navList && navList.classList.contains('active')) {
+                        navList.classList.remove('active');
+                        hamburgerBtn.classList.remove('active');
+                        hamburgerBtn.setAttribute('aria-expanded', 'false');
+                        hamburgerBtn.focus();
+                    }
+                });
+            }
+
+            // ---------- 渐显动画 ----------
+            const fadeElements = document.querySelectorAll('.fade-up');
+            if ('IntersectionObserver' in window) {
+                const observer = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('visible');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.15, rootMargin: '0px 0px -30px 0px' });
+                fadeElements.forEach(el => observer.observe(el));
+            } else {
+                fadeElements.forEach(el => el.classList.add('visible'));
+            }
+
+            // ---------- CTA 按钮跳转表单 ----------
+            const scrollToForm = () => {
+                const form = document.getElementById('cta-form');
+                if (form) form.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            };
+            document.getElementById('ctaNavBtn')?.addEventListener('click', scrollToForm);
+            // heroCtaBtn 已改为链接，不再需要绑定事件
+            document.getElementById('heroSolutionBtn')?.addEventListener('click', scrollToForm);
+
+            // ---------- 版权年份 ----------
+            const yearSpan = document.getElementById('currentYear');
+            if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+
+            // ---------- 表单验证 ----------
+            const form = document.getElementById('contactForm');
+            if (form) {
+                form.addEventListener('submit', function(e) {
+                    const name = form.querySelector('#formName').value.trim();
+                    const phone = form.querySelector('#formPhone').value.trim();
+                    const message = form.querySelector('#formMessage').value.trim();
+                    if (!name || !phone || !message) {
+                        e.preventDefault();
+                        alert('请填写所有必填字段。');
+                        return;
+                    }
+                    if (!/^[\d\s\-+()]{7,20}$/.test(phone)) {
+                        e.preventDefault();
+                        alert('请输入有效的联系电话。');
+                        return;
+                    }
+                    if (form.getAttribute('action') === '/api/contact') {
+                        e.preventDefault();
+                        alert(`感谢您的咨询，${name}！\n我们将在24小时内与您联系。\n(生产环境请配置后端接口)`);
+                    }
+                });
+            }
+        })();
+    </script>
+</body>
+</html>
